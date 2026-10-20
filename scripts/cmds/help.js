@@ -7,7 +7,7 @@ module.exports = {
 	config: {
 		name: "help",
 		version: "2.5",
-		author: "Aminul Sardar",
+		author: "𝐍𝐂𝐒 𝐏𝐑𝐎",
 		countDown: 5,
 		role: 0,
 		description: {
@@ -27,7 +27,7 @@ module.exports = {
 			commandNotFound: "⚠️ Command \"%1\" not found.",
 			helpList:
 				"╔═════•| 💜 |•═════╗\n" +
-				" GOAT-BOT 𝐏𝐑𝐎𝐉𝐄𝐂𝐓\n" +
+				" 𝕂𝕀ℙ𝔼 𝔸𝕀\n" +
 				"╚═════•| 💜 |•═════╝\n\n" +
 				"📜 𝐏𝐀𝐆𝐄 %1/%2 📜\n\n" +
 				" ━❮🖤❯━━━❪🕊️❫━━━❮🩷❯━\n" +
@@ -53,7 +53,7 @@ module.exports = {
 			commandNotFound: "⚠️ Lệnh \"%1\" không tồn tại.",
 			helpList:
 				"╔═════•| 💜 |•═════╗\n" +
-				" GOAT-BOT 𝐏𝐑𝐎𝐉𝐄𝐂𝐓\n" +
+				" 𝐊𝐈𝐏𝐄 𝐀𝐈\n" +
 				"╚═════•| 💜 |•═════╝\n\n" +
 				"📜 𝐓𝐫𝐚𝐧𝐠 %1/%2 📜\n\n" +
 				" ━❮🖤❯━━━❪🕊️❫━━━❮🩷❯━\n" +
