@@ -19,15 +19,15 @@
     ]
   },
   "adminBot": [
-    "61593887530160",
+    "61588676516462",
     ""
   ],
   "DEV": [
-    "61593887530160",
+    "61588676516462",
     ""
   ],
   "GOD": [
-    "61593887530160",
+    "61588676516462",
     ""
   ],
   "whiteListMode": {
@@ -35,8 +35,8 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "bot": "Goat-Bot-V2",
-  "prefix": "/",
+  "bot": "𝕜𝕚𝕡𝕖 𝕒𝕚",
+  "prefix": "-",
   "autoSetNickname": true,
   "authorFB": "https://www.facebook.com/profile.php?id=100071880593545",
   "authorName": "AminulSardar",
