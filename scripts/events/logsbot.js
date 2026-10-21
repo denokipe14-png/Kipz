@@ -5,7 +5,7 @@ module.exports = {
 		name: "logsbot",
 		isBot: true,
 		version: "1.4",
-		author: "Aminul Sardar",
+		author: "NTKhang",
 		envConfig: {
 			allow: true
 		},
@@ -42,8 +42,7 @@ module.exports = {
 			if (event.logMessageType == "log:subscribe") {
 				if (!event.logMessageData.addedParticipants.some(item => item.userFbId == api.getCurrentUserID()))
 					return;
-				const threadInfo_fca = await api.getThreadInfo(threadID);
-				threadName = threadInfo_fca?.threadName || (await threadsData.get(threadID))?.threadName || "Group";
+				threadName = (await api.getThreadInfo(threadID)).threadName;
 				const authorName = await usersData.getName(author);
 				msg += getLang("added", authorName);
 			}
